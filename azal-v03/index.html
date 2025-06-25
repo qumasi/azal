@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة آزال للتوظيف</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="q-fn">
+
+    <header class="q-fn-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/Logo.jpg" alt="" width="100" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">وظائف</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">من نحن</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تسجيل </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">دخول</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="images/slider/1.png" style="max-width: 200px;" alt="">
+                            <h1>
+                                شركة آزال للتوظيف
+                            </h1>
+                            <p>
+                                سجّل الآن في منصتنا الجديدة لتوظيف الموظفين المثاليين بكل سهولة ويسر!
+                            </p>
+                            <p><a class="btn btn-lg q-btn-azal" href="#">سجل الآن</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-content"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="images/slider/2.png" style="max-width: 300px;" alt="">
+                            <p>
+                                استفد من تطبيقنا السهل والموثوق للعثور على فرص العمل المناسبة لك
+                            </p>
+
+                            <p><a class="btn btn-lg q-btn-azal" href="#">أنضم الآن </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="carousel-content">
+                        <!-- <img src="banner-azal.jpg" alt="banner-azal" style="width: 100%; height: 100%;"> -->
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="images/slider/3.png" style="max-width: 300px;" alt="">
+                            <p>
+                                ابحث عن أفضل المرشحين لشركتك بسهولة وسرعة
+                            </p>
+
+                            <p><a class="btn btn-lg q-btn-azal" href="#">أنضم الآن </a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1"> ابحث عن وظيفة</h2>
+                <p class="fn-sec-h2 text-muted">128 وظيفة شاغر في 19 مجال </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="jobs-filter">
+                <form action="">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <select class="form-select form-select-lg" id="country" required>
+                                <option value="">الموقع</option>
+                                <option>صنعاء</option>
+                                <option> عدن</option>
+                                <option> تعز</option>
+                                <option> أب</option>
+                                <option> حضرموت</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                يرجى اختيار بلد صحيح.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <select class="form-select form-select-lg" id="country" required>
+                                <option value="">الشركة</option>
+                                <option> الكبوس </option>
+                                <option> الاكوع للصرافة</option>
+                                <option> هائل سعيد</option>
+                                <option> سبأ فارما</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                يرجى اختيار بلد صحيح.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <select class="form-select form-select-lg" id="country" required>
+                                <option value="">التخصص</option>
+                                <option>طب </option>
+                                <option> تقنية معلومات</option>
+                                <option> تجارة</option>
+                                <option> صيدلة</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                يرجى اختيار بلد صحيح.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <select class="form-select form-select-lg" id="country" required>
+                                <option value="">المؤهل</option>
+                                <option> دكتوراه</option>
+                                <option> ماجستير</option>
+                                <option> بكالوريوس</option>
+                                <option> دبلوم </option>
+                                <option> ثانوية عامة </option>
+                                <option> أعدادية </option>
+                            </select>
+                            <div class="invalid-feedback">
+                                يرجى اختيار بلد صحيح.
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="jobs-table">
+                <table class="q-table table table-light mt-4">
+                    <thead>
+                        <tr class="thead">
+                            <th>مكان العمل</th>
+                            <th>المسمى الوظيفي</th>
+                            <th>القسم</th>
+                            <th class="q-sm-none">ينتهي التقديم</th>
+                            <th>تقديم</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>شركة الكبوس صنعاء</td>
+                            <td>مبرمج تطبيقات الجوال</td>
+                            <td>كمبيوتر - تقنية المعلومات</td>
+                            <td class="q-sm-none">25-8-2023</td>
+                            <td><a class="btn q-btn-azal" onclick="applied(this)">تقديم</a></td>
+                        </tr>
+                        <tr>
+                            <td>شركة الاكوع للصرافة صنعاء</td>
+                            <td>مبرمج تطبيقات وب</td>
+                            <td>كمبيوتر - تقنية المعلومات</td>
+                            <td class="q-sm-none">26-8-2023</td>
+                            <td><a onclick="applied(this)" class="btn q-btn-azal">تقديم</a></td>
+                        </tr>
+                        <tr>
+                            <td>شركة هائل سعيد انعم صنعاء</td>
+                            <td>مهندس برمجيات</td>
+                            <td>كمبيوتر - تقنية المعلومات</td>
+                            <td class="q-sm-none">28-8-2023</td>
+                            <td><a onclick="applied(this)" class="btn q-btn-azal">تقديم</a></td>
+                        </tr>
+                        <tr>
+                            <td>شركة الكبوس صنعاء</td>
+                            <td>خبير ورد برس</td>
+                            <td>كمبيوتر - تقنية المعلومات</td>
+                            <td class="q-sm-none">28-8-2023</td>
+                            <td><a onclick="applied(this)" class="btn q-btn-azal">تقديم</a></td>
+                        </tr>
+                        <tr>
+                            <td>شركة سبأ فارما صنعاء</td>
+                            <td>خبير ذكاء اصطناعي</td>
+                            <td>كمبيوتر - تقنية المعلومات</td>
+                            <td class="q-sm-none">29-8-2023</td>
+                            <td><a onclick="applied(this)" class="btn q-btn-azal">تقديم</a></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <div class="jobs-pagintation">
+                <div class="row">
+
+                    <!-- <div class="col">
+                        <span> صفحة</span>
+                        <span> 1</span>
+                        <span> من</span>
+                        <span> 5</span>
+                    </div> -->
+                    <div class="col">
+                        <select class="form-select" id="country" required>
+                            <option value="">اظهار 5</option>
+                            <option> ثانوية عامة </option>
+                            <option> بكالوريوس</option>
+                            <option> ماجستير</option>
+                            <option> دكتوراة</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination ">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1"> استكشف الوظائف حسب القسم </h2>
+                <p class="fn-sec-h2 text-muted">
+                    هناك ما يقارب 15 القسم
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+    </section> -->
+
+
+
+    <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1"> فرص تنافسية مغرية</h2>
+                <p class="fn-sec-h2 text-muted">
+                    رواتب تنافسية ومزايا مغرية
+                    في شركات رائدة في مجالها
+                </p>
+            </div>
+        </div>
+
+        <div class="q-slider-cards" id="q-slider-cards-1">
+            <div class="q-wrapper">
+                <i id="q-slider-cards-1-left" class="q-arrow">&raquo;</i>
+                <ul class="q-carousel">
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-1.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر شركة الطيف </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span>مبرمج وب</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">400000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-2.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر شركة النعمان </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span>خبير ASP</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">30000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-3.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر مجموعة الكبوس </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span> مهندس برمجيات</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">300000 - 400000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-4.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر شركة جمعان </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span>مبرمج وب</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">250000-300000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-5.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر شركة عبده اليمني </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span>خبير Python</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">400000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="q-card sq-img-card">
+                        <div class="card" style="width: 18rem; text-align: center;">
+                            <img src="images/companies/img-6.jpg" class="card-img-top sq-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">توفر شركة ماس العربي </h5>
+                                <p class="card-text">
+                                    وظيفة شاغرة - <span>خبير Oracle</span> - في صنعاء - ينتهي التقديم 12/10/2023
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">150000 ريال</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn q-btn-azal  q-btn-azal-75">قدم الآن</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i id="q-slider-cards-1-right" class="q-arrow">&laquo;</i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1"> شركاء آزال</h2>
+                <p class="fn-sec-h2 text-muted">بالتعاون مع شركائنا نوفر فرص عمل للخريجين في عدة مجالات </p>
+            </div>
+        </div>
+
+        <div class="q-slider-cards" id="q-slider-cards-2">
+            <div class="q-wrapper">
+                <i id="q-slider-cards-2-left" class="q-arrow">&raquo;</i>
+                <ul class="q-carousel">
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-1.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4">شركة الطيف </h3>
+                        <span>للصرفة والتحويلات </span>
+                    </li>
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-2.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4">شركة النعمان </h3>
+                        <span>للصرفة والتحويلات </span>
+                    </li>
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-3.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4">مجموعة الكبوس </h3>
+                        <span>للتجارة والصناعة والإستثمار </span>
+                    </li>
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-4.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4"> شركة جمعان</h3>
+                        <span>للتجارة والإستثمار</span>
+                    </li>
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-5.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4">عبده اليمني </h3>
+                        <span>للتجارة والإستيراد </span>
+                    </li>
+                    <li class="q-card">
+                        <div class="q-img"><img src="images/companies/img-6.jpg" alt="q-img" draggable="false"></div>
+                        <h3 class="h4"> ماس العربية</h3>
+                        <span>دليلك للإستثمار الصناعي </span>
+                    </li>
+                </ul>
+                <i id="q-slider-cards-2-right" class="q-arrow">&laquo;</i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1">بوابة المتقدمين للوظائف</h2>
+                <p class="fn-sec-h2 text-muted d-none d-md-block">تسهل لك هذه البوابة التقديم للوظائف والتنسيق والتذكير
+                    بالوماعيد</p>
+            </div>
+        </div>
+
+
+        <div class="container  pt-3">
+            <div class="row">
+                <div class="col-md-5">
+
+                    <p class="lead">
+                        نحن في شركة آزل نوفر تطبيقًا يساعد الباحثين عن عمل بتقديم طلباتهم بنقرة واحدة فقط، ويسهل عملية
+                        البحث ومتابعة الوظائف. انضم إلى منصتنا الآن واستفد من فرص العمل المثيرة والمناسبة لك.
+                    </p>
+                    <div class="text-center m-2">
+                        <a href="" class="btn q-btn-azal" style="padding-left:40px ;padding-right:40px ;">دخول</a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <video autoplay loop class="card-img" style="border: 1px solid rgb(210, 210, 210);">
+                        <source src="/videos/employee/employee.webm" type="video/webm">
+                        <source src="/videos/employee/employee.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="sec-title">
+                <h2 class="fn-sec-h1"> بوابة الشركات</h2>
+                <p class="fn-sec-h2 text-muted d-none d-md-block">تقدم هذه البوابة خدمات تسهل إدارة الموظائف والمتقدمين
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container pt-3">
+            <div class="row ">
+                <div class="col-md-5 order-md-2">
+                    <p class="lead">
+                        يسهل نظام آزال للشركات عملية تقييم المرشحين بطريقة سريعة وفعالة، مما يساعدهم في اختيار أفضل
+                        الموظفين لشركتهم. انضم إلى منصتنا الآن وابحث عن أفضل المرشحين لشركتك.
+                    </p>
+                    <div class="text-center m-2">
+                        <a href="" class="btn q-btn-azal" style="padding-left:40px ;padding-right:40px ;">دخول</a>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 ">
+                    <video autoplay loop class="card-img" style="border: 1px solid rgb(195, 195, 195);">
+                        <source src="/videos/employer/employer.webm" type="video/webm">
+                        <source src="/videos/employer/employer.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <h3 class="footer-title h4">نبذة عن آزال للتوظيف</h3>
+                <p style="text-align: justify ;" class="pe-md-3 pe-lg-5">
+                    شركة آزال للتوظيف أحد أهم الموقع للوظائف في اليمن، وهو حلقة الوصل بين الباحثين عن عمل وأصحاب العمل
+                    الذين ينوون التوظيف. كل يوم، يقوم أهم أصحاب العمل في اليمن بإضافة مئات الوظائف الشاغرة على المنصة
+                    آزال.
+                </p>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3 pe-5">
+                <h3 class="footer-title h4"> الاقسام الرئيسية</h3>
+                <ul class="list-unstyled">
+                    <li>صيدلة</li>
+                    <li>التجارة</li>
+                    <li>تقنية المعلومات</li>
+                    <li>هندسة</li>
+                    <li>إدراة</li>
+                </ul>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <h3 class="footer-title h4">اهم شركائنا</h3>
+                <ul class="list-unstyled">
+                    <li>مجموعة هائل سعيد انعم</li>
+                    <li>الكبوس</li>
+                    <li> البنك التعاوني الزراعي </li>
+                    <li>بنك الامل</li>
+                    <li>شركة يمن سوفت</li>
+                </ul>
+            </div>
+
+            <address class="col-sm-12 col-md-6 col-lg-3 mt-3 footer-address">
+                <h3 class="footer-title h4" style="color: #fff;"> للتواصل</h3>
+                <ul class="list-unstyled">
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                        </svg>
+                        <a href="#">
+                            عمارة لا آله إلا الله - شارع الزبيري - صنعاء - اليمن
+                        </a>
+                    </li>
+
+
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        <a href="tel:01-232-232">01-232-232</a>
+                    </li>
+
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
+                        </svg>
+                        <a href="tel:773-828-082">773-828-082</a>
+                    </li>
+
+
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20"
+                            fill="currentColor">
+                            <path
+                                d="M25,2C12.318,2,2,12.318,2,25c0,3.96,1.023,7.854,2.963,11.29L2.037,46.73c-0.096,0.343-0.003,0.711,0.245,0.966 C2.473,47.893,2.733,48,3,48c0.08,0,0.161-0.01,0.24-0.029l10.896-2.699C17.463,47.058,21.21,48,25,48c12.682,0,23-10.318,23-23 S37.682,2,25,2z M36.57,33.116c-0.492,1.362-2.852,2.605-3.986,2.772c-1.018,0.149-2.306,0.213-3.72-0.231 c-0.857-0.27-1.957-0.628-3.366-1.229c-5.923-2.526-9.791-8.415-10.087-8.804C15.116,25.235,13,22.463,13,19.594 s1.525-4.28,2.067-4.864c0.542-0.584,1.181-0.73,1.575-0.73s0.787,0.005,1.132,0.021c0.363,0.018,0.85-0.137,1.329,1.001 c0.492,1.168,1.673,4.037,1.819,4.33c0.148,0.292,0.246,0.633,0.05,1.022c-0.196,0.389-0.294,0.632-0.59,0.973 s-0.62,0.76-0.886,1.022c-0.296,0.291-0.603,0.606-0.259,1.19c0.344,0.584,1.529,2.493,3.285,4.039 c2.255,1.986,4.158,2.602,4.748,2.894c0.59,0.292,0.935,0.243,1.279-0.146c0.344-0.39,1.476-1.703,1.869-2.286 s0.787-0.487,1.329-0.292c0.542,0.194,3.445,1.604,4.035,1.896c0.59,0.292,0.984,0.438,1.132,0.681 C37.062,30.587,37.062,31.755,36.57,33.116z" />
+                        </svg>
+                        <a href="tel:773-828-082">773-828-082</a>
+                    </li>
+
+
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                            <path
+                                d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+                        </svg>
+                        <a href="mailto:azal@azalhr.com">azal@azalhr.com</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+        <hr>
+
+        <div class="d-md-flex  justify-content-between text-center mt-5">
+            <div class="social d-flex justify-content-center">
+                <ul>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path
+                                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="copyright ">
+                <small> Copyright &copy; All rights reserved by: Mohammed Alqmase</small>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
